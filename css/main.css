@@ -1,5 +1,5 @@
 body {
-  background: #ececec; }
+  background: white; }
 
 .adjust {
   display: inline-block;
@@ -23,7 +23,7 @@ body {
     width: 80px;
     height: 80px;
     color: rgba(255, 255, 255, 0.9);
-    font: 20px "AvenirNext-Heavy" bold;
+    font: 25px "AvenirNext-Heavy";
     line-height: 80px;
     text-align: center;
     cursor: pointer;

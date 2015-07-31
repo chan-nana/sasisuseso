@@ -1,5 +1,5 @@
 body {
-  background: #ececec;
+  background: white;
 }
 
 .adjust {
@@ -27,7 +27,7 @@ body {
     border-radius: 50%;
     width: $size; height: $size;
     color: rgba(255, 255, 255, .9);
-    font: 20px "AvenirNext-Heavy" bold;
+    font: 25px "AvenirNext-Heavy";
     line-height: $size;
     text-align: center;
     cursor: pointer;

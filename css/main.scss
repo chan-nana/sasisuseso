@@ -45,21 +45,6 @@ body {
     }
   }
 
-  &:hover {
-    .hole {
-      box-shadow: none;
-    }
-
-    .inner {
-      top: 4px;
-      box-shadow: none !important;
-
-      &:after {
-        background: rgba(255, 255, 255, 0);
-      }
-    }
-  }
-
   &.push {
     .hole {
       top: 4px;
@@ -88,4 +73,44 @@ body {
     background: #00E676;
     box-shadow: 0 2px 0 #1B5E20;
   }
+}
+
+.sa.btn{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.si.btn{
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.su.btn{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.se.btn{
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.so.btn{
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    margin-left: -40px;
+    margin-top: -40px;
 }

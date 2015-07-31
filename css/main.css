@@ -55,17 +55,11 @@ body {
   .btn.red .inner {
     background: #F50057;
     box-shadow: 0 2px 0 #880E4F; }
-  .btn.purple .inner {
-    background: #D500F9;
-    box-shadow: 0 2px 0 #4A148C; }
   .btn.blue .inner {
     background: #00B0FF;
     box-shadow: 0 2px 0 #01579B; }
   .btn.green .inner {
     background: #00E676;
     box-shadow: 0 2px 0 #1B5E20; }
-  .btn.yellow .inner {
-    background: #FFC400;
-    box-shadow: 0 2px 0 #FF6F00; }
 
 /*# sourceMappingURL=main.css.map */

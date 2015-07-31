@@ -79,11 +79,6 @@ body {
     box-shadow: 0 2px 0 #880E4F;
   }
 
-  &.purple .inner {
-    background: #D500F9;
-    box-shadow: 0 2px 0 #4A148C;
-  }
-
   &.blue .inner {
     background: #00B0FF;
     box-shadow: 0 2px 0 #01579B;
@@ -92,10 +87,5 @@ body {
   &.green .inner {
     background: #00E676;
     box-shadow: 0 2px 0 #1B5E20;
-  }
-
-  &.yellow .inner {
-    background: #FFC400;
-    box-shadow: 0 2px 0 #FF6F00;
   }
 }

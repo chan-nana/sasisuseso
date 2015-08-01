@@ -2,6 +2,13 @@ body {
   background: white;
 }
 
+main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 360px;
+}
+
 .adjust {
   display: inline-block;
   margin: 25px;

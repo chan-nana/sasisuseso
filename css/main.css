@@ -2,8 +2,9 @@ body {
   background: white; }
 
 main {
-  position: relative;
-  min-width: 540px; }
+  position: absolute;
+  min-width: 540px;
+  height: 100%; }
 
 .adjust {
   display: inline-block;

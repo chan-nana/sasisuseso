@@ -1,11 +1,6 @@
 body {
   background: white; }
 
-main {
-  position: absolute;
-  min-width: 540px;
-  height: 100%; }
-
 .adjust {
   display: inline-block;
   margin: 25px; }

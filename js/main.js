@@ -10,6 +10,14 @@
             "そうなんですか！"
         ];
 
+    var PLAYER_KEY = [
+        61, // =
+        44, // ,
+        55, // 7
+        32, // space
+        50  // 2
+    ];
+    
     var sa = new win.SpeechSynthesisUtterance(TXT[0]),
         si = new win.SpeechSynthesisUtterance(TXT[1]),
         su = new win.SpeechSynthesisUtterance(TXT[2]),
@@ -22,6 +30,31 @@
     setup(se);
     setup(so);
 
+    doc.body.addEventListener("keypress", function(evt) {
+        switch (evt.keyCode) {
+        case PLAYER_KEY[0]:
+            evt.preventDefault();
+            win.speechSynthesis.speak(sa);
+            break;
+        case PLAYER_KEY[1]:
+            evt.preventDefault();
+            win.speechSynthesis.speak(si);
+            break;
+        case PLAYER_KEY[2]:
+            evt.preventDefault();
+            win.speechSynthesis.speak(su);
+            break;
+        case PLAYER_KEY[3]:
+            evt.preventDefault();
+            win.speechSynthesis.speak(se);
+            break;
+        case PLAYER_KEY[4]:
+            evt.preventDefault();
+            win.speechSynthesis.speak(so);
+            break;
+        }
+    }, false);
+    
     $("#sasisuseso").on("click", function(evt) {
         console.log("クリックされたよ");
         var $target = $(evt.target);
@@ -41,6 +74,10 @@
         if ($target.hasClass("so")) {
             win.speechSynthesis.speak(so);
         }
+    });
+
+    $(window).on('keydown', function (e) {
+        console.log(e.which);
     });
 
     function setup(obj) {

@@ -85,6 +85,9 @@
         obj.rate  = 1.2;
         obj.pitch = 1.5;
     }
+
+    $('#dummy').hide().focus();
+    
 })(this, document, jQuery);
 
 (function(win, doc) {

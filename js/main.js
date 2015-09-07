@@ -17,7 +17,7 @@
         32, // space
         50  // 2
     ];
-    
+
     var sa = new win.SpeechSynthesisUtterance(TXT[0]),
         si = new win.SpeechSynthesisUtterance(TXT[1]),
         su = new win.SpeechSynthesisUtterance(TXT[2]),
@@ -54,7 +54,7 @@
             break;
         }
     }, false);
-    
+
     $("#sasisuseso").on("click", function(evt) {
         console.log("クリックされたよ");
         var $target = $(evt.target);
@@ -83,11 +83,11 @@
     function setup(obj) {
         obj.lang  = "ja-JP";
         obj.rate  = 1.2;
-        obj.pitch = 1.5;
+        obj.pitch = 1.2;
     }
 
     $('#dummy').hide().focus();
-    
+
 })(this, document, jQuery);
 
 (function(win, doc) {
